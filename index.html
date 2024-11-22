@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweater Weather</title>
     <script src="https://kit.fontawesome.com/fc4de0ca49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -73,14 +75,49 @@
 
 
     <section class="section02">
-<!-- colocar carrossel -->
+
+        
+        <div class="carousel">
+
+        <div class="card-01"> 
+            <h4>Siganture Blend</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis minima doloremque, quos aliquid earum quaerat vitae similique debitis ad veritatis veniam officiis eligendi odit ea ipsam expedita? Necessitatibus, esse!</p>
+        </div>
+            <div class="card">
+                <img src="img/paper-bag-297223_1280.png" alt="">
+                <h3>Themoon</h3>
+                <p>Descrição</p>
+            </div>
+            <div class="card">
+                <img src="img/paper-bag-297223_1280.png" alt="">
+                <h3>Therain</h3>
+                <p>Descrição</p>
+            </div>
+            <div class="card">
+                <img src="img/paper-bag-297223_1280.png" alt="">
+                <h3>Thesun</h3>
+                <p>Descrição </p>
+            </div>
+            <div class="card">
+                <img src="img/paper-bag-297223_1280.png" alt="">
+                <h3>thecloudy</h3>
+                <p>Descrição</p>
+            </div>  
+            <div class="card">
+                <img src="img/paper-bag-297223_1280.png" alt="">
+                <h3>thecloudy</h3>
+                <p>Descrição</p>
+            </div>  
+            
+        </div>
     </section>
 
 
     <section class="section03">
-        <div>
+        <div class="texto">
+            
             <h2>The House Blend.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae voluptatibus optio. Quos cum ullam alias quod beatae totam corporis? Fugiat nam sapiente pariatur similique corrupti a ut repellat expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit sint excepturi, iusto est nisi labore voluptatem deleniti, incidunt tempore minus, maxime obcaecati. Maxime aut officia ratione? Voluptate, explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. A placeat maxime est quibusdam quis omnis debitis porro iure repellat ratione, quia molestias cupiditate, saepe, asperiores atque recusandae reiciendis odio minus! </p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae voluptatibus optio. Quos cum ullam alias quod beatae totam corporis? Fugiat nam sapiente pariatur similique corrupti a ut repellat expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam maxime veritatis doloribus perspiciatis nobis neque, ad sapiente necessitatibus nemo cumque ducimus, soluta quisquam quibusdam ex. Facere velit sit porro.</p>
 
@@ -89,7 +126,8 @@
             
             <a href="">Shoo Now</a>
         
-        </div>
+        
+    </div>
 
         <div class="box">
 
@@ -110,7 +148,7 @@
     <section class="section04">
         <div class="box">
 
-            <div class="cloud02">
+            <div class="cloud01">
                 <img src="" alt="">
                 
                 <i class="fa-solid fa-cloud"></i>
@@ -124,9 +162,9 @@
             </div>
         </div>
 
-        <div>
+        <div class="texto">
             <h2>Medium Roast.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae voluptatibus optio. Quos cum ullam alias quod beatae totam corporis? Fugiat nam sapiente pariatur similique corrupti a ut repellat expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit sint excepturi, iusto est nisi labore voluptatem deleniti, incidunt tempore minus, maxime obcaecati. Maxime aut officia ratione? Voluptate, explicabo quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. A placeat maxime est quibusdam quis omnis debitis porro iure repellat ratione, quia molestias cupiditate, saepe, asperiores atque recusandae reiciendis odio minus! </p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae voluptatibus optio. Quos cum ullam alias quod beatae totam corporis? Fugiat nam sapiente pariatur similique corrupti a ut repellat expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam maxime veritatis doloribus perspiciatis nobis neque, ad sapiente necessitatibus nemo cumque ducimus, soluta quisquam quibusdam ex. Facere velit sit porro.</p>
 
@@ -142,7 +180,18 @@
 
         <div>
             <h2>Newsletter</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eveniet odio natus vel porro, autem, omnis voluptates in tempore iusto facilis laboriosam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                Ab eveniet odio natus vel porro, autem, omnis voluptates.</p>
+        </div>
+
+        <div>
+            <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email" required> <br>
+
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+
+                <button type="submit">Enviar</button>
         </div>
     </section>
 
@@ -151,7 +200,7 @@
             <p>© Copyright 2000-2024</p>
         </div>
 
-        <div>
+        <div class="f-list">
             <nav>
                 <ul>
                     <li> 
@@ -173,11 +222,20 @@
             </nav>
         </div>
 
-        <div>
+        <div class="icone">
             <i class="fa-brands fa-square-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-twitter"></i>
         </div>
     </footer>
+
+    <!-- Inclui JQuery (biblioteca de JavaScript que simplifica o código) -->
+    <!-- JQuery é necessário para o Slick Carousel funcionar, por isso deve ser adicionado antes  -->
+    <!-- Aqui usamos o link CDN para obter o JQuery diretamente da web -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Inclui o JavaScript do Slick Carousel, que controla a funcionalidade do carrossel -->
+    <!-- Link CDN do JavaScript do Slick, essencial para inicializar e configurar o carrossel -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>

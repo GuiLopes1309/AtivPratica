@@ -80,3 +80,173 @@ header {
 .section01 a {
     color: black;
 }
+
+
+.card-01 {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card {
+    background-color: #1d1b1b;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    display: flex;
+    justify-content: center;
+    width: 16.5vw;
+    height: 17vw;
+}
+.card p {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.card h3 {
+    color: white;
+}
+
+.section03, .section04 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.texto {
+        width: 30vw; 
+        height: 50vh;  
+        padding: 20px;
+        margin: 3rem;
+}
+
+.texto h2 {
+    font-size: 2rem;
+}
+
+.texto p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.texto a {
+    color: black;
+}
+
+
+.section05 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+.section05 p {
+    font-size: 1rem;
+}
+
+.section05 h2 {
+    font-size: 2rem;
+}
+
+label {
+    color: #333;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+}
+
+button {
+    padding: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-list nav ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.f-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.f-list a:hover {
+    transition: 0.5s;
+    color: red ;
+}
+
+.icone {
+    font-size: 2rem;
+}
+
+
+@media (max-width : 840px) {
+   
+    header {
+        background-position: 40%;
+    }
+    .list nav ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+     .list a {
+        font-size: 1rem;
+     }
+
+
+     .section01 {
+        background-position: 40%;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+
+     .section01 nav ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+
+
+     .section03, .section04 {
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+
+     .texto {
+        flex-wrap: wrap;
+     }
+
+
+     .section05 {
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+
+     footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+
+}
